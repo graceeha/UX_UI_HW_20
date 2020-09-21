@@ -1,0 +1,72 @@
+body {
+    background-color: #F0F0F0;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-family: 'Barlow', sans-serif;
+    color: black;
+}
+
+#navigation-bar.affix {
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 10;
+border-bottom: 3px solid black;
+}
+
+.nav-link {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    height: 150px;
+     margin-top: -50px;
+    position: absolute;
+}
+
+.jumbotron {
+    padding: 50px;
+    margin: 100px;
+    text-align: center;
+    background-color: #454645;
+}
+
+.display-4 {
+    font-weight: bold;
+    
+    color: white;
+}
+
+.acdescrip {
+    color: white;
+}
+
+.lead {
+    color: white;
+}
+
+.col {
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.team-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+   
+}
