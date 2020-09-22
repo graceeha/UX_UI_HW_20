@@ -70,3 +70,15 @@ border-bottom: 3px solid black;
     justify-content: left;
    
 }
+
+.card {
+    text-align: center;
+    
+}
+
+.card-header {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+
+}
